@@ -7,6 +7,7 @@
  */
 use yii\helpers\Html;
 ?>
+
 <?=Html::beginForm('','post',['class'=>'form-inline'])?>
 <?=\yii\captcha\Captcha::widget([
     'model'=>$model,
