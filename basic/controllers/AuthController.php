@@ -8,7 +8,7 @@
 
 namespace app\controllers;
 
-
+use \app\rbac\AuthRule;
 use yii\web\Controller;
 
 class AuthController extends Controller
@@ -73,8 +73,30 @@ class AuthController extends Controller
 
 
 //        Rule 操作
-        $authRule = new \app\rbac\AuthRule();
-        $auth->add($authRule);
-//        $perm = $auth->getPermission('auth-pudate');
+//        $authRule = new AuthRule();
+//        $auth->add($authRule);
+
+        //读取一个 Rule
+//        $ruleName='authRule';
+//        var_dump($auth->getRule($ruleName));
+
+        //读取所有 Rule
+//        $auth->getRules();
+
+        //更新权限节点的rule_name 注意操作字段时 为 ruleName
+//        $perm = $auth->getPermission('auth-update');
+//        $perm->ruleName = 'authRule';
+//        $auth->update($perm->name,$perm);
+
+//      验证 auth-update 规则  检查 id 为 1 的用户是否有 Permission 的 auth-update
+//        var_dump($auth -> checkAccess(1 , 'auth-update')); //false 因为添加了 auth-update权限节点添加了 ruleName->authRule
+//        var_dump($auth->checkAccess(1,'auth-update',['article'=>['user_id'=>1]])); //true
+
+        //删除一个 Rule
+//        $ruleName='authRule';
+//        $oneRule = $auth->getRule($ruleName);
+//        $auth->remove($oneRule);
+//      删除所有 Rule
+//        $auth->removeAllRules();
     }
 }
