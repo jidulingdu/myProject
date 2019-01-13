@@ -163,19 +163,36 @@ class IndexController extends Controller
 //        unset($session['key']);
 
         //cookies
-        //存
+        //第一种方法
+//        $cookie= new \yii\web\Cookie();
+//        $cookie-> name = 'smister1';//cookie的名称
+//        $cookie-> expire = time() + 3600;//存活的时间
+//        $cookie -> httpOnly = true;//无法通过js读取cookie
+//        $cookie-> value = 'cookieValue';//cookie 的值
+//        \Yii::$app->response->getCookies()-> add($cookie);
+        //第二种方法
+//        $cookie= new\yii\web\Cookie([
+//            'name' =>'smister',
+//            'expire'=>time() + 3600,
+//            'httpOnly'=> true,
+//            'value' => 'cookieValue',
+//        ]);
+//        \Yii::$app->response->getCookies()-> add($cookie);
+        //第三种
 //        $cookies = \Yii::$app->response->cookies;
 //        $cookie_data = array('name'=>'user','value'=>'zhangsi');
 //        $cookies->add( new Cookie($cookie_data));
 //            //取
 //        $cookies =\Yii::$app->request->cookies;
-//       echo $cookies->getValue('user',20);//如何键名不存在 输出默认值
+//        echo $cookies->getValue('user',20);//如何键名不存在 输出默认值
+        //判断一个 Cookie 是否存在
+//        $cookie->has('smister');
 //            //删
 //        $cookies->remove('user');
 
         //获取缓存组件
 //        $cache = \Yii::$app->cache;
-         //写入缓存
+        //写入缓存
 //        $cache->madd(['key1'=>'val1',"key2"=>"val2"]); //添加多个
 //        $cache -> mget(['key1','key2']);
 //        $cache->add('key','val');
@@ -184,7 +201,7 @@ class IndexController extends Controller
 //        $cache->set('key','value');
 //        //读取缓存
 //        echo $cache->get('key');
-         //检测是否存在
+        //检测是否存在
 //        echo $cache->exists('key');
 //        //删除数据
 //        $cache->delete('key');
@@ -236,7 +253,7 @@ class IndexController extends Controller
 
 //    public function behaviors()
 //    {
-        //整个页面缓存  优先执行
+    //整个页面缓存  优先执行
 //        return [
 //            [
 //                'class' => 'yii\filters\PageCache',//设置页面缓存
@@ -248,7 +265,7 @@ class IndexController extends Controller
 //                ]
 //            ]
 //        ];
-        //http 缓存 先判断修改日期 修改日期没有改变时 直接读写浏览器缓存 如果修改日期发生改变则判断内容 内容改变则重新计入缓存 没有改变读取浏览器缓存
+    //http 缓存 先判断修改日期 修改日期没有改变时 直接读写浏览器缓存 如果修改日期发生改变则判断内容 内容改变则重新计入缓存 没有改变读取浏览器缓存
 //        return [
 //            [
 //                'class'=>'yii\filters\HttpCache', //设置http缓存类 服务器通知浏览器进行缓存
@@ -269,6 +286,7 @@ class IndexController extends Controller
     {
         return $this->render('test');
     }
+
     public function actionAbout()
     {
         return $this->render('about');
