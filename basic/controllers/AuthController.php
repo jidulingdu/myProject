@@ -59,8 +59,22 @@ class AuthController extends Controller
 //        $onePerm = $auth->getPermission('auth-update');
 //        $oneRole = $auth->getRole('admin');
 //        var_dump($auth->removeChild($oneRole,$onePerm));
-        //添加角色到用户
+
+        //添加角色到用户 assign 分配
+//        $oneRole = $auth->getRole('admin');
+//        $auth->assign($oneRole,1);
+        //用户移除角色
+//        $oneRole = $auth->getRole('admin');
+//        var_dump($auth->revoke($oneRole,1));
+        //读取 id 为 1 用户所拥有的 Permission
+//        var_dump($auth->getPermissionsByUser(1));
+        //检查 id 为 1 的用户是否有 Permission 的 auth-delete
+//        var_dump($auth -> checkAccess(1 , 'auth-delete'));
 
 
+//        Rule 操作
+        $authRule = new \app\rbac\AuthRule();
+        $auth->add($authRule);
+//        $perm = $auth->getPermission('auth-pudate');
     }
 }
