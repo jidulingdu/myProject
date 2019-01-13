@@ -15,6 +15,6 @@ class AuthRule extends Rule
 
     public function execute($user_id, $item, $params)
     {
-        return isset($params['article'])?$params['article']['user_id']==$user_id:false;
+        return isset($params['article'])?$params['article']['user_id']==$user_id:false ;
     }
 }
