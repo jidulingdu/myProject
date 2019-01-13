@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0a5f5e-2fbc-4b92-9224-f6155dd70d1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/rule/AuthRule.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/AuthController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,14 +93,14 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="md" value="4" />
-          <entry key="php" value="1894" />
+          <entry key="php" value="1896" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="4" />
-          <entry key="PHP" value="1894" />
+          <entry key="PHP" value="1896" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -110,7 +108,7 @@
         <counts>
           <entry key="Vagrantfile" value="1" />
           <entry key="md" value="4" />
-          <entry key="php" value="59" />
+          <entry key="php" value="60" />
           <entry key="sql" value="1" />
           <entry key="yii" value="1" />
         </counts>
@@ -118,7 +116,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="4" />
-          <entry key="PHP" value="59" />
+          <entry key="PHP" value="60" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
         </counts>
@@ -133,19 +131,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+        <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state relative-caret-position="746">
+              <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
+        <entry file="file://$PROJECT_DIR$/basic/rule/AuthRule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+            <state relative-caret-position="294">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -232,8 +230,8 @@
         <option value="$PROJECT_DIR$/basic/controllers/Auth.php" />
         <option value="$PROJECT_DIR$/basic/config/web.php" />
         <option value="$PROJECT_DIR$/basic/rule/AuthRole.php" />
-        <option value="$PROJECT_DIR$/basic/rule/AuthRule.php" />
         <option value="$PROJECT_DIR$/basic/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/basic/rule/AuthRule.php" />
       </list>
     </option>
   </component>
@@ -431,7 +429,7 @@
       <workItem from="1547112895617" duration="593000" />
       <workItem from="1547168347624" duration="10904000" />
       <workItem from="1547253527316" duration="5408000" />
-      <workItem from="1547355327942" duration="5845000" />
+      <workItem from="1547355327942" duration="6423000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1546825390703</created>
@@ -545,11 +543,32 @@
       <option name="project" value="LOCAL" />
       <updated>1547361050602</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="IndexController">
+      <created>1547363235518</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547363235518</updated>
+    </task>
+    <task id="LOCAL-00018" summary="IndexController">
+      <created>1547363264287</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547363264287</updated>
+    </task>
+    <task id="LOCAL-00019" summary="IndexController">
+      <created>1547363271968</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547363271968</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154577000" />
+    <option name="totallyTimeSpent" value="155155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -853,17 +872,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/rule/AuthRule.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="746">
+          <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/basic/rule/AuthRule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+        <state relative-caret-position="294">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
