@@ -19,6 +19,7 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
+//    public $sourcePath = 'tem\ass'; //对应publishOptions
     public $css = [
         'css/site.css',
     ];
@@ -28,4 +29,18 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
     ];
+//    public $cssOptions = [
+//        'noscript'=>true
+//    ];
+//    public $jsOptions = [
+//      'condition'=>'lte IE9',
+//      'position'=>'\yii\web\View::POS_HEAD'
+//    ];
+//    public $publishOptions = [
+//      'only'=>[
+//          'css',
+//          'fonts',
+//          'js'
+//      ]
+//    ];
 }
