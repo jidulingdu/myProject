@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+$this->title ="aa";
 ?>
 <?=Html::beginForm(['article/info'],'post',['id'=>'addForm'])?>
 <?=Html::activeInput('text',$model,'title',['class'=>'input'])?>

@@ -22,12 +22,14 @@ class AppAsset extends AssetBundle
 //    public $sourcePath = 'tem\ass'; //对应publishOptions
     public $css = [
         'css/site.css',
+        'css/index.css',
     ];
     public $js = [
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+//        'yii\bootstrap\BootstrapPluginAsset',//页面不使用nav布局插件时候不会调用bootstrap.js  此时可以用BootstrapPluginAsset调用
     ];
 //    public $cssOptions = [
 //        'noscript'=>true
