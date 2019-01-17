@@ -50,6 +50,17 @@ $config = [
         'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
+            'idParam'=>'__user',
+            'enableAutoLogin'=>'true',
+            'identityCookie'=>['name'=>'__user_identity','httpOnly'=>true]
+//            'loginUrl'=>['/article/index'] // 默认返回地址
+        ],
+        'admin'=>[ //自定义
+            'class'=>'yii\web\User', //让admin 成为user组件
+            'identityClass' => 'app\models\User',
+            'enableAutoLogin' => true,//浏览器cookie 会产生一个_identity 会话结束后 再次登录 会利用identity进行登录
+            'idParam'=>'__admin', //防止前后台id 覆盖
+            'identityCookie'=>['name'=>'__admin_identity','httpOnly'=>true]
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

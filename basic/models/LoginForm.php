@@ -60,7 +60,10 @@ class LoginForm extends Model
     public function login()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600*24*30 : 0);
+
+            $lifetime = $this->rememberMe ? 3600*24*30 : 0;
+            session_set_cookie_params($lifetime); //用session设置会话cookie参数。 session_id有效时间存在cookie中
+            return Yii::$app->user->login($this->getUser(), $lifetime);
         }
         return false;
     }

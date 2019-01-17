@@ -31,6 +31,7 @@ class Article extends ActiveRecord{
 //        if($model->save()){
 //            ;;;;;;
 //        }
+        //此外可以用on 'on'=>['..','...',] 多个验证规则
 
     }
 }

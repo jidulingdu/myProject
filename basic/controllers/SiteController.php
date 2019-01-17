@@ -20,19 +20,20 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout'],
+                'only' => ['logout'],//针对本控制器的方法 如果全部 用 *
+//                'except'=>[''],//除了本类中的方法
                 'rules' => [
                     [
                         'actions' => ['logout'],
                         'allow' => true,
-                        'roles' => ['@'],
+                        'roles' => ['@'],//@表示登录以后的用户
                     ],
                 ],
             ],
-            'verbs' => [
+            'verbs' => [ // 访问过滤
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'logout' => ['post'],
+                    'logout' => ['post'],//方法请求方式
                 ],
             ],
         ];
@@ -93,7 +94,7 @@ class SiteController extends Controller
      */
     public function actionLogout()
     {
-        Yii::$app->user->logout();
+        Yii::$app->user->logout(false); //false退出后不会清理缓存
 
         return $this->goHome();
     }
