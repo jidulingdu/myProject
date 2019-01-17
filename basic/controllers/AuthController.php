@@ -30,11 +30,12 @@ class AuthController extends Controller
         //删除全部节点
 //        $auth -> removeAllPermissions();
 //        //创建角色
-//        $role = $auth->createRole('admin');
-//        //添加角色描述
-//        $role->description ="管理员";
-//        //添加角色
-//        $auth->add($role);
+        $role = $auth->createRole(null);
+        //添加角色描述
+        $role->description ="demo";
+        $role->name ="demo";
+        //添加角色
+        $auth->add($role);
         //获取角色
 //        var_dump($auth->getRole("admin"));
         //获取全部角色
