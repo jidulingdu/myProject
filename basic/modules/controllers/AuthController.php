@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: wen
  * Date: 2019/1/17
- * Time: 18:02
+ * Time: 18:03
  */
 
 namespace app\modules;
@@ -11,7 +11,7 @@ namespace app\modules;
 
 use yii\web\Controller;
 
-class DemoController extends Controller
+class AuthController extends Controller
 {
     public function actionIndex(){
         echo '';
