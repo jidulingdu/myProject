@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0a5f5e-2fbc-4b92-9224-f6155dd70d1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basic/commands/RbacController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/modules/controllers/DemoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,24 +94,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="md" value="911" />
-          <entry key="php" value="4966" />
+          <entry key="dummy" value="8" />
+          <entry key="md" value="1313" />
+          <entry key="php" value="5579" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="911" />
-          <entry key="PHP" value="4966" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Markdown" value="1313" />
+          <entry key="PHP" value="5579" />
+          <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Vagrantfile" value="1" />
           <entry key="md" value="5" />
-          <entry key="php" value="152" />
+          <entry key="php" value="156" />
           <entry key="sql" value="1" />
           <entry key="yii" value="1" />
         </counts>
@@ -118,14 +119,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="5" />
-          <entry key="PHP" value="152" />
+          <entry key="PHP" value="156" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="8" />
+          <entry key="PHP Class.type" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -144,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="546">
               <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
             </state>
           </provider>
@@ -169,24 +170,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4326">
-              <caret line="214" column="55" selection-start-line="214" selection-start-column="41" selection-end-line="214" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
@@ -198,12 +181,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="624">
-                <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+              <first_editor relative-caret-position="388">
+                <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -211,10 +194,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/models/Admin.php">
+        <entry file="file://$PROJECT_DIR$/basic/commands/RbacController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/modules/controllers/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/modules/controllers/DemoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -332,6 +333,10 @@
         <option value="$PROJECT_DIR$/basic/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/basic/笔记.md" />
+        <option value="$PROJECT_DIR$/basic/modules/controllers/demoController.php" />
+        <option value="$PROJECT_DIR$/basic/commands/RbacController.php" />
+        <option value="$PROJECT_DIR$/basic/modules/controllers/DemoController.php" />
+        <option value="$PROJECT_DIR$/basic/modules/controllers/TestController.php" />
       </list>
     </option>
   </component>
@@ -420,11 +425,11 @@
       <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-swiftmailer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="433" />
-    <option name="y" value="66" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="781" />
+    <option name="y" value="101" />
     <option name="width" value="1227" />
-    <option name="height" value="897" />
+    <option name="height" value="896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -449,12 +454,19 @@
               <item name="yii" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -473,10 +485,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\PHPTutorial\WWW\yii\basic\modules\controllers" />
+      <recent name="F:\phpStudy\PHPTutorial\WWW\yii\basic\commands" />
       <recent name="F:\phpStudy\PHPTutorial\WWW\yii\basic" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\yii\basic" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\yii\basic\views\index" />
-      <recent name="D:\phpStudy\PHPTutorial\WWW\yii" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -540,7 +553,7 @@
       <workItem from="1547438494447" duration="7355000" />
       <workItem from="1547513066850" duration="6508000" />
       <workItem from="1547598406074" duration="19021000" />
-      <workItem from="1547685307949" duration="9898000" />
+      <workItem from="1547685307949" duration="15100000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1546825390703</created>
@@ -745,17 +758,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547694768680</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="IndexController">
+      <created>1547711450305</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547711450305</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211290000" />
+    <option name="totallyTimeSpent" value="216492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="884" y="134" width="1227" height="897" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09909166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1140625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -789,15 +809,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="IndexController" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/rbac/AuthRule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/DemoController.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/code.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/DemoController.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/Code.php" />
     <entry file="file://$PROJECT_DIR$/basic/controllers/CaptchaController.php">
@@ -1029,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1070,10 +1074,38 @@
     <entry file="file://$PROJECT_DIR$/basic/笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="624">
-            <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+          <first_editor relative-caret-position="388">
+            <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/modules/controllers/DemoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/commands/RbacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/modules/controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
