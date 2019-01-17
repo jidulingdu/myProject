@@ -22,9 +22,9 @@ class SiteController extends Controller
                 'class' => AccessControl::className(),
                 'only' => ['logout'],//针对本控制器的方法 如果全部 用 *
 //                'except'=>[''],//除了本类中的方法
-                'rules' => [
+                'rules' => [ //角色
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout'], //可操作方法
                         'allow' => true,
                         'roles' => ['@'],//@表示登录以后的用户
                     ],
