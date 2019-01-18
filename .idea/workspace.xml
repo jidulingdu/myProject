@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc0a5f5e-2fbc-4b92-9224-f6155dd70d1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/commands/RbacController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/commands/RbacController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/config/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,14 +93,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="md" value="1338" />
+          <entry key="md" value="1339" />
           <entry key="php" value="6035" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1338" />
+          <entry key="Markdown" value="1339" />
           <entry key="PHP" value="6035" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
@@ -116,6 +111,7 @@
           <entry key="md" value="6" />
           <entry key="php" value="173" />
           <entry key="sql" value="1" />
+          <entry key="xml" value="1" />
           <entry key="yii" value="1" />
         </counts>
       </usages-collector>
@@ -125,6 +121,7 @@
           <entry key="PHP" value="173" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -176,12 +173,17 @@
         <entry file="file://$PROJECT_DIR$/basic/笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="605">
-                <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <first_editor relative-caret-position="668">
+                <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -210,15 +212,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
               <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/modules/controllers/DemoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -569,7 +562,7 @@
       <workItem from="1547513066850" duration="6508000" />
       <workItem from="1547598406074" duration="19021000" />
       <workItem from="1547685307949" duration="16064000" />
-      <workItem from="1547770474623" duration="4266000" />
+      <workItem from="1547770474623" duration="4368000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1546825390703</created>
@@ -802,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547719440132</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="IndexController">
+      <created>1547782412887</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547782412887</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221722000" />
+    <option name="totallyTimeSpent" value="221824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -846,9 +846,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="IndexController" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap/src/BootstrapWidgetTrait.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap/src/Alert.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1097,19 +1094,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/commands/HelloController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#177#204#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/commands/RbacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="e#31#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1128,21 +1131,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/commands/RbacController.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="e#31#79#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="605">
-            <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <first_editor relative-caret-position="668">
+            <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
