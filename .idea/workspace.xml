@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0a5f5e-2fbc-4b92-9224-f6155dd70d1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basic/modules/admin/views/role/assign.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/assets/AppAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/DemoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/RoleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/models/Rbac.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/models/Rbac.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/role/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/role/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,15 +102,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="md" value="1344" />
-          <entry key="php" value="6452" />
+          <entry key="md" value="1349" />
+          <entry key="php" value="7853" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1344" />
-          <entry key="PHP" value="6452" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="1349" />
+          <entry key="PHP" value="7852" />
           <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
@@ -114,7 +119,7 @@
         <counts>
           <entry key="Vagrantfile" value="1" />
           <entry key="md" value="6" />
-          <entry key="php" value="190" />
+          <entry key="php" value="207" />
           <entry key="sql" value="1" />
           <entry key="xml" value="1" />
           <entry key="yii" value="1" />
@@ -123,7 +128,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="6" />
-          <entry key="PHP" value="190" />
+          <entry key="PHP" value="207" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="1" />
@@ -139,38 +144,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/config/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/web/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/modules/admin/Admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="626">
-                <caret line="155" column="55" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="55" />
+              <first_editor relative-caret-position="798">
+                <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -178,40 +156,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/views/article/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/RoleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#282#305#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/DemoController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/modules/admin/views/role/assign.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/modules/admin/views/role/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="15" column="92" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -219,17 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/modules/admin/models/Rbac.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="903">
+              <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -291,9 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/controllers/TgiiController.php" />
-        <option value="$PROJECT_DIR$/basic/views/tgii/index.php" />
-        <option value="$PROJECT_DIR$/basic/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/basic/views/index/index.php" />
         <option value="$PROJECT_DIR$/basic/views/article/list.php" />
         <option value="$PROJECT_DIR$/basic/controllers/ArticleController.php" />
@@ -312,7 +257,6 @@
         <option value="$PROJECT_DIR$/basic/controllers/CaptchaController.php" />
         <option value="$PROJECT_DIR$/basic/views/captcha/index.php" />
         <option value="$PROJECT_DIR$/basic/views/site/index.php" />
-        <option value="$PROJECT_DIR$/basic/assets/AppAsset.php" />
         <option value="$PROJECT_DIR$/basic/models/Article.php" />
         <option value="$PROJECT_DIR$/basic/models/LoginForm.php" />
         <option value="$PROJECT_DIR$/basic/models/User.php" />
@@ -323,8 +267,6 @@
         <option value="$PROJECT_DIR$/basic/modules/controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/basic/config/console.php" />
         <option value="$PROJECT_DIR$/basic/commands/HelloController.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/basic/config/db.php" />
         <option value="$PROJECT_DIR$/basic/modules/auth/Module.php" />
         <option value="$PROJECT_DIR$/basic/commands/RbacController.php" />
         <option value="$PROJECT_DIR$/basic/modules/auth/models/Rbac.php" />
@@ -334,14 +276,20 @@
         <option value="$PROJECT_DIR$/basic/modules/auth/views/rbac/index.php" />
         <option value="$PROJECT_DIR$/basic/modules/admin/controllers/RbacController.php" />
         <option value="$PROJECT_DIR$/basic/modules/admin/Module.php" />
-        <option value="$PROJECT_DIR$/basic/笔记.md" />
         <option value="$PROJECT_DIR$/basic/views/article/index.php" />
         <option value="$PROJECT_DIR$/basic/modules/admin/Admin.php" />
         <option value="$PROJECT_DIR$/basic/web/index.php" />
-        <option value="$PROJECT_DIR$/basic/config/web.php" />
-        <option value="$PROJECT_DIR$/basic/modules/admin/controllers/RoleController.php" />
         <option value="$PROJECT_DIR$/basic/modules/admin/controllers/DemoController.php" />
         <option value="$PROJECT_DIR$/basic/modules/admin/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/basic/笔记.md" />
+        <option value="$PROJECT_DIR$/basic/modules/admin/views/role/index.php" />
+        <option value="$PROJECT_DIR$/basic/config/web.php" />
+        <option value="$PROJECT_DIR$/basic/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/basic/modules/admin/controllers/RoleController.php" />
+        <option value="$PROJECT_DIR$/basic/config/db.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/basic/modules/admin/models/Rbac.php" />
+        <option value="$PROJECT_DIR$/basic/modules/admin/views/role/assign.php" />
       </list>
     </option>
   </component>
@@ -431,8 +379,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="781" />
-    <option name="y" value="101" />
+    <option name="x" value="554" />
+    <option name="y" value="129" />
     <option name="width" value="1227" />
     <option name="height" value="896" />
   </component>
@@ -453,6 +401,24 @@
               <item name="yii" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii" type="b2602c69:ProjectViewProjectNode" />
@@ -481,7 +447,24 @@
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii" type="b2602c69:ProjectViewProjectNode" />
@@ -591,7 +574,7 @@
       <workItem from="1547513066850" duration="6508000" />
       <workItem from="1547598406074" duration="19021000" />
       <workItem from="1547685307949" duration="16064000" />
-      <workItem from="1547770474623" duration="9873000" />
+      <workItem from="1547770474623" duration="18709000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1546825390703</created>
@@ -852,17 +835,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547791852565</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="IndexController">
+      <created>1547792049000</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1547792049000</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227329000" />
+    <option name="totallyTimeSpent" value="236165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20572917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118229166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -896,45 +886,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="IndexController" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/web/YiiAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/list.php" />
-    <entry file="file://$PROJECT_DIR$/basic/assets/AppAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/index/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/models/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/article/list.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/Yii.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/User.php" />
-    <entry file="file://$PROJECT_DIR$/basic/vendor/sebastian/diff/src/Output/UnifiedDiffOutputBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/site/error.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1083,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/commands/RbacController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1102,13 +1046,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/rbac/DbManager.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1138,27 +1075,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/modules/admin/models/Rbac.php">
+    <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/DemoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/modules/admin/views/role/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="42">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="626">
-            <caret line="155" column="55" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="55" />
+          <first_editor relative-caret-position="798">
+            <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1169,10 +1113,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/modules/admin/Admin.php">
+    <entry file="file://$PROJECT_DIR$/basic/assets/AppAsset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="420">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -1183,34 +1127,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+    <entry file="file://F:/BaiduNetdiskDownload/09 【实战】Yii 2.0高级组件化方式开发高并发电商平台视频+源码（2017年6月更新）/_assignitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="588">
+          <caret line="44" column="38" selection-start-line="36" selection-start-column="31" selection-end-line="44" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/RbacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$4/Rbac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$5/Rbac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$6/Rbac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/rbac/ManagerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$7/Rbac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/modules/admin/views/role/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#85#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/modules/admin/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/modules/admin/models/Rbac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/RoleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#282#305#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/DemoController.php">
+    <entry file="file://$PROJECT_DIR$/basic/modules/admin/views/role/assign.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/modules/admin/controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="92" />
         </state>
       </provider>
     </entry>

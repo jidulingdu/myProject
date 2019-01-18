@@ -15,7 +15,6 @@ class AuthController extends Controller
 {
     public function actionIndex(){
         $auth = \Yii::$app->authManager;
-        var_dump($auth);die;
         //创建 permission 节点
 //        $perm = $auth->createPermission('auth-delete');
 //        //添加节点描述
@@ -61,7 +60,6 @@ class AuthController extends Controller
 //        $onePerm = $auth->getPermission('auth-update');
 //        $oneRole = $auth->getRole('admin');
 //        var_dump($auth->removeChild($oneRole,$onePerm));
-
         //添加角色到用户 assign 分配
 //        $oneRole = $auth->getRole('admin');
 //        $auth->assign($oneRole,1);

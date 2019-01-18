@@ -22,7 +22,6 @@ class AppAsset extends AssetBundle
 //    public $sourcePath = 'tem\ass'; //对应publishOptions
     public $css = [
         'css/site.css',
-        'css/index.css',
     ];
     public $js = [
     ];

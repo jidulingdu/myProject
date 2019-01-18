@@ -91,12 +91,15 @@ $config = [
             ],
         ],
         'db' => $db,
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
+//        'urlManager' => [
+//            'class' => 'yii\web\UrlManager',
+//            'enablePrettyUrl' => true,  // 这个是生成路由 ?r=site/about--->/site/about
+//            'showScriptName' => false,
+//            'suffix' => '.html',// 静态
+//            'rules' =>[
+//
+//            ],
+//        ],
     ],
 
     'params' => $params,
