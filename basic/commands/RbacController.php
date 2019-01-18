@@ -11,7 +11,7 @@ class RbacController extends Controller
     {
         $trans = Yii::$app->db->beginTransaction();
         try {
-            $dir = dirname(dirname(__FILE__)). '/modules/controllers';
+            $dir = dirname(dirname(__FILE__)). '/modules/auth/controllers';
 
             $controllers = glob($dir. '/*');
 
