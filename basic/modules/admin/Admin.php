@@ -7,7 +7,7 @@ namespace app\modules\admin;
  * Time: 13:37
  */
 
-class Module extends \yii\base\Module
+class Admin extends \yii\base\Module
 {
     public $controllerNamespace = 'app\modules\admin\controllers';
 

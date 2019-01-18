@@ -12,6 +12,11 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'defaultRoute' => 'article',//设置默认访问路径
+    'modules' => [
+        'admin' => [
+            'class' => 'app\modules\admin\Module',
+        ],
+    ],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -39,13 +44,13 @@ $config = [
         ],
         //缓存
         'cache' => [
-//            'class' => 'yii\caching\FileCache',
-        'class'=>'yii\redis\Cache',
-            'redis'=>[
-                'hostname'=>'localhost',
-                'port'=>'6379',
-                'database'=>0,
-            ]
+            'class' => 'yii\caching\FileCache',
+//        'class'=>'yii\redis\Cache',
+//            'redis'=>[
+//                'hostname'=>'localhost',
+//                'port'=>'6379',
+//                'database'=>0,
+//            ]
         ],
         'user' => [
             'identityClass' => 'app\models\User',
@@ -86,20 +91,14 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
     ],
-    'modules' => [
-        'admin' => [
-            'class' => 'app\modules\admin\Module',
-        ],
-    ],
+
     'params' => $params,
 ];
 
