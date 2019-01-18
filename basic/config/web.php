@@ -14,7 +14,7 @@ $config = [
     'defaultRoute' => 'article',//设置默认访问路径
     'modules' => [
         'admin' => [
-            'class' => 'app\modules\admin\Module',
+            'class' => 'app\modules\admin\Admin',
         ],
     ],
     'components' => [
