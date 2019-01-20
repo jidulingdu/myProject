@@ -57,8 +57,8 @@ class Rbac extends ActiveRecord
         $return['roles'] = [];
         $return['permissions'] = [];
         $auth = \Yii::$app->authManager;
-        $children = $auth->getChildren($name); 
-//        var_dump($children);die;
+        $children = $auth->getChildren($name); //是否有子角色或字节点--》auth_item_child  根据parent 查出child  通过child 查出auth_item name字段
+        var_dump($children);die;
 
         if (empty($children)) {
             return [];
