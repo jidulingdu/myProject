@@ -27,7 +27,8 @@ class RoleController extends Controller
                 return $this->redirect('?r=admin/role/index');
             }
         }
-        $children = Rbac::getChildrenByName($name);
+        $children = Rbac::getChildrenByName($name);//通过角色查找子角色 和 节点
+//        var_dump($children);die;
         $roles = Rbac::getOptions($auth->getRoles(),$parent);
         $permissions = Rbac::getOptions($auth->getPermissions(),$parent);
         return $this->render('assign',['parent'=>$name,'roles'=>$roles,'permissions'=>$permissions,'children' => $children]);

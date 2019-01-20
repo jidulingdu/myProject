@@ -16,6 +16,9 @@ class Rbac extends ActiveRecord
             if(!empty($parent)&&$parent->name!=$obj->name&&\Yii::$app->authManager->canAddChild($parent,$obj)){
                 $return[$obj->name] = $obj->description;
             }
+            if(is_null($parent)){
+                $return[$obj->name] = $obj->description;
+            }
         }
         return $return;
     }
@@ -54,7 +57,7 @@ class Rbac extends ActiveRecord
         $return['roles'] = [];
         $return['permissions'] = [];
         $auth = \Yii::$app->authManager;
-        $children = $auth->getChildren($name); //是否有子角色或字节点--》auth_item
+        $children = $auth->getChildren($name); 
 //        var_dump($children);die;
 
         if (empty($children)) {
